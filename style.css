@@ -1,0 +1,157 @@
+@media screen and (min-width:350px) and (max-width:1400px){
+.head{
+    color: rgb(83, 183, 245);
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+}
+.inpt{
+    background-color: beige;
+    border: 2px solid rgba(92, 190, 214, 0.492);
+    border-radius: 10px;
+    width: 90%;
+    height: 10%;
+    margin-top: 5px;
+    font-family:sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 12px solid rgb(137, 115, 234);
+    border-radius: 20px;
+    background-color: rgb(106, 144, 150);
+    width: 400px;
+    height: 700px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 20%;
+}
+.btn button{
+    border: 2px solid rgb(141, 155, 237);
+    border-radius: 20px;
+    background-color: rgb(143, 57, 223);
+    width: 80px;
+    height:70px;
+    padding: 20px;
+    margin-top: 25px;
+    align-content: space-around;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bolder;
+    font-stretch: extra-expanded;
+    text-align: center;
+}
+.btn button:hover{
+    background-color: rgb(146, 203, 217);
+    transition: .1s;
+    transform:translate(-2px,-2px);
+    color: brown;
+}
+.btn1 button{
+    border: 2px solid rgb(141, 155, 237);
+    border-radius: 20px;
+    background-color: rgb(192, 166, 19);
+    width: 80px;
+    height: 70px;
+    padding: 20px;
+    margin-top: 25px;
+    align-content: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bolder;
+    outline-offset: 3px;
+    
+}
+.btn1 button:hover{
+    background-color: rgb(146, 203, 217);
+    transition: .1s;
+    transform:translate(-2px,-2px);
+    color: brown;
+}
+    
+}
+@media screen and (min-width:350px) and (max-width:850px) {
+    .head{
+        color: rgb(86, 231, 231);
+        width: 100%;
+        height: 50px;
+        font-size:30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .inpt{
+        background-color: rgb(241, 241, 230);
+        border: 2px solid rgb(106, 133, 139);
+        border-radius: 10px;
+        margin-top: 5px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: xx-large;
+        font-weight: bolder;font-stretch: 15px;color: darkmagenta;
+    }
+    
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        box-sizing: border-box;
+        border: 12px solid rgb(146, 128, 226);
+        border-radius: 20px;
+        background-color: rgb(94, 160, 172);
+        width: 350px;
+        height: 700px;
+        align-items: center;
+        text-align: center;
+        box-shadow: inset 0px 0px 8px rgb(0,0,0,0.2);
+    }
+    .btn button{
+        border: 2px solid rgb(71, 95, 236);
+        border-radius: 20px;
+        background-color: rgb(160, 104, 212,0.2);
+        width: 70px;
+        height:60px;
+        padding: 20px;
+        margin-top: 30px;
+        align-content: space-around;
+        justify-content: center;
+        color: aliceblue;
+        font-size: 28px;
+        font-weight: bolder;
+        font-stretch: extra-expanded;
+        text-align: center;
+    }
+    .btn button:hover{
+        background-color: rgba(25, 249, 249, 0.492);
+        transition: .1s;
+        transform:translate(-2px,-2px);
+        color: brown;
+    }
+    .btn1 button{
+        border: 2px solid rgb(141, 155, 237);
+        border-radius: 20px;
+        background-color: rgb(143, 57, 223);
+        width: 70px;
+        height: 60px;
+        padding: 20px;
+        margin-top: 40px;
+        align-content: center;
+        justify-content: center;
+        color: aliceblue;
+        font-size: x-large;
+        font-weight: bolder;
+        font-stretch: extra-expanded;
+        
+    }    
+    .btn1 button:hover{
+        background-color: aqua;
+        transition: .1s;
+        transform:translate(-2px,-2px);
+        color: brown;
+    }
+
+}
